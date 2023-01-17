@@ -5,6 +5,18 @@
 <p align="right">
   <img height="200" src="./cooking.png" />
 </p>
+<div >
+<h1>Project screens</h1>
+<h3>.Landing page</h3>
+ <img src="./landinPage.jpeg">
+<h3>.Home</h3>
+</h3>
+ <img src="./home.jpeg"/>
+<h3>.Detail page</h3>
+ <img src="./detail.jpeg"/>
+<h3>.Form page</h3>
+ <img src="./crearReceta.jpeg"/>
+</div>
 
 ## Objetivos del Proyecto
 
@@ -182,10 +194,3 @@ __IMPORTANTE__: No está permitido utilizar los filtrados, ordenamientos y pagin
   - Obtener todos los tipos de dieta posibles
   - En una primera instancia, cuando no exista ninguno, deberán precargar la base de datos con los tipos de datos indicados por spoonacular [acá](https://spoonacular.com/food-api/docs#Diets)
 
-## Testing
-
-- [ ] Al menos tener un componente del frontend con sus tests respectivos
-- [ ] Al menos tener una ruta del backend con sus tests respectivos
-- [ ] Al menos tener un modelo de la base de datos con sus tests respectivos
-#   P I - - F O O D  
- 
