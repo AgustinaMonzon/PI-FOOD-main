@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Fasthand & display=swap');
 .landing {
   background: #e4eae6
-    url("https://www.businessamlive.com/wp-content/uploads/2019/11/food-1.jpg");
+    url("https://mobimg.b-cdn.net/v3/fetch/f2/f299fcb857b1a828989ec53a7f6c390c.jpeg?w=1470&r=0.5625");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -18,18 +18,18 @@
   color: #000000;
   position: absolute;
   top: 22%;
-  left: 30%;
+  left: 33%;
   font-family: 'Fasthand', cursive;
   text-shadow: 0.1em 0.2em 0.3em rgba(252, 255, 250, 0.971);
 }
 .landing_h2 {
-  height: 9vw;
+  height: 8vw;
   text-align: center;
-  font-size:35px;
+  font-size:26px;
   color: #000000;
   position: absolute;
-  top: 32%;
-  left: 22%;
+  top: 38%;
+  left: 31%;
   font-family: 'Fasthand', cursive;
   text-shadow: 0.1em 0.1em 0.3em rgb(242, 242, 242);
 }
@@ -48,8 +48,8 @@
   cursor: pointer;
   transition-duration: 0.3s;
   position: absolute;
-  top: 70%;
-  left: 43%;
+  top: 63%;
+  left: 45%;
 }
 
 .landing_button:hover {
