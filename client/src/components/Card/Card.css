@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Fasthand & display=swap');
+.card {
+    background-color:#fbeedc58;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px) ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3%;
+    text-decoration: none;
+    width: 23vw;
+    height: 30vw;
+    margin-bottom: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.6s;
+    box-shadow: 5px 2px 15px 1px rgb(255, 255, 255);
+  }
+  
+  .card_container {
+    background: url("https://img5.goodfon.com/wallpaper/nbig/1/1a/spetsii-perets-paprika-lozhka-chesnok-rozmarin.jpg");
+    height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min(25vw));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8vw;
+    color:#063e04;
+  }
+
+  .card_info h3 {
+    font-size: 25px;
+    font-family: 'Fasthand', cursive;
+    color: rgb(0, 0, 0);
+  }
+
+  .card_info2 h5 {
+    font-size: 18px;
+    font-family:'Fasthand', cursive;
+    color: rgb(0, 0, 0);;
+  }
+
+  .card_img {
+    height: 70%;
+    width: 95%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_button {
+    background-color: #063e04;
+    border-radius: 6vw;
+    width: 10vw;
+    height: 3vw;
+    color: rgb(252, 255, 251);
+    transition: all 0.4s;
+    cursor: pointer;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px 0 rgb(239, 246, 247);
+  }
+   

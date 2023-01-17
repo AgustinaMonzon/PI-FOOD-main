@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2? family= Fasthand & display=swap');
+.recipeContainer {
+    border: initial;
+    width: 90%;
+    height: 70vw;
+    margin: 15px 0px 0px 200px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 15px 0px rgb(195, 194, 194);
+    background: url("https://phonoteka.org/uploads/posts/2021-05/1620158767_7-phonoteka_org-p-pripravi-fon-8.jpg");
+    backdrop-filter: blur(200px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    opacity: 0.95;
+  }
+  
+  #buttonReturn {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: solid 1px rgb(12, 52, 8);
+    width: 150px;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 4px;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    bottom: 2vw;
+    left: 50%
+  }
+  #buttonReturn:hover {
+    background-color: rgb(7, 94, 13);
+    color: antiquewhite;
+    
+  }
+  .recipeContainer2 {
+    position: relative;
+    right: 100px;
+    border-radius: 10px;
+    width: 335px;
+    height: 67vw;
+    margin-top: 0.5px;
+    background-color: #c0ad8e9e;
+    box-shadow: 0px 3px 10px 2.5px #fafafa;
+    
+    
+    }
+  .recipeDetail_text1 {
+    margin-left: 0px;
+    position:relative;
+    right: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 70%;
+    height: 95%;
+    background-color: #c0ad8e9e;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px) ;
+    text-align: justify;
+    color: #052f03;
+   
+  }
+#Preparation{
+  font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+     font-family: 'Fasthand', cursive;
+}
+  #title {
+    font-size: 30px;
+    margin-bottom: 7px;
+    font-family: 'Fasthand', cursive;
+  }
+  #title2 {
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+     font-family: 'Fasthand', cursive;
+  }
+#ingredients{
+  font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+     font-family: 'Fasthand', cursive;
+}
+  .body {
+    font-family: 'Fasthand', cursive;
+  }
+#Recipe{
+  text-align: center;
+  font-size: 35px;
+    margin-bottom: 7px;
+    font-family: 'Fasthand', cursive;
+    text-decoration:underline;
+}
+  #body2 {
+    font-family: 'Fasthand', cursive;
+  }
+  
+  
+  .recipeContainer2 h2 {
+    color: #052f03;
+    padding: 5px;
+    font-size: 17px;
+    font-family:'Fasthand', cursive;
+  
+  }
+  .recipeContainer2 h1 {
+    color: #052f03;
+    padding: 5px 6px 0px 6px;
+    font-size: 33px;
+    font-family: 'Fasthand', cursive;
+  }
+
+.textito{
+  font-size: 10px;
+  font-family: 'Fasthand', cursive;
+}
+  #img{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    height: 22vw;
+    width: 22vw;
+  }
+  
+  #not_found2{
+    position: absolute;
+    top: 38%;
+    left: 43.5%;
+    color: rgba(0, 0, 0, 0.911);
+    font-size: 23px;
+  }
+  

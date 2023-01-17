@@ -1,0 +1,32 @@
+
+.buttonSearch {
+    font-size: 15px;
+    height: 30px;
+    width:80px;
+    background-color:  #063e04;
+    border-radius: 0.4vw;
+    color: aliceblue;
+    position: absolute;
+    top: 2.3%;
+    left: 63%;
+    cursor: pointer;
+  transition-duration: 0.4s;
+  }
+.buttonSearch:hover {
+  background-color:  #041803;
+  border-radius: 0.4vw;
+  border-color:  #063e04;
+}
+
+  #inputName {
+    border-radius: 2px;
+    height: 25px;
+    width: 140px;
+    margin-top: 0px;
+    padding-left: 5px;
+    position: absolute;
+    top: 2.5%;
+    left: 69%;
+    color:black
+    
+  }

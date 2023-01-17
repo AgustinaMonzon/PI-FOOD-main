@@ -1,0 +1,110 @@
+.home {
+  margin: auto;
+  background: url("https://corporate.unioncoop.ae/wp-content/uploads/2018/04/267973-P55Y9G-211111.jpg");
+  background-attachment: fixed;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+  
+.filtros {
+  gap: 7rem;
+  background-color: #fbeedcba;
+  height: 4vw;
+  height: 2.5vw;
+  opacity: 0.9;
+}
+
+.filtro1 {
+  font-size: 13px;
+  height: 28px;
+  width: 108px;
+  background-color:rgb(53, 128, 26); 
+  color: aliceblue;
+  position: absolute;
+  top: 9.2%;
+  left: 23.6%;
+  cursor: pointer;
+  border-radius: 0.4vw;
+}
+.filtro2 {
+  font-size: 13px;
+  height: 28px;
+  width: 130px;
+  background-color:rgb(53, 128, 26); 
+  border-radius: 0.4vw;
+  color: aliceblue;
+  position: absolute;
+  top: 9.2%;
+  left: 63%;
+  cursor: pointer;
+}
+.filtro3 {
+  font-size: 13px;
+  height: 28px;
+  width: 160px;
+  background-color:rgb(53, 128, 26); 
+  color: aliceblue;
+  border-radius: 0.4vw;
+  color: aliceblue;
+  position: absolute;
+  top: 9.2%;
+  left: 41%;
+  cursor: pointer;
+}
+
+.Filtro4{
+  font-size: 13px;
+  height: 28px;
+  width: 160px;
+  background-color:rgb(53, 128, 26); 
+  color: aliceblue;
+  border-radius: 0.4vw;
+  color: aliceblue;
+  position: absolute;
+  cursor: pointer;
+  top: 9.2%;
+  left:9%;
+}
+.like{
+  font-size: 13px;
+  height: 28px;
+  width: 160px;
+  background-color:rgb(53, 128, 26); 
+  color: aliceblue;
+  border-radius: 0.4vw;
+  color: aliceblue;
+  position: absolute;
+  cursor: pointer;
+  top: 9.2%;
+  left: 75%;
+}
+#not_found{
+  color: rgba(255, 0, 0, 0.911);
+  font-size: 23px;
+  background-color:rgb(123, 118, 111);
+  border-radius: 0.4vw;
+  height: 48px;
+  width: 188px;
+  padding: 0.7vw;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+#not_found2{
+  position: absolute;
+  top: 38%;
+  left: 43.5%;
+  color: rgba(0, 0, 0, 0.911);
+  font-size: 23px;
+}
+
+#img{
+  position: absolute;
+  top: 30%;
+  left: 39.5%;
+  height: 15vw;
+  width: 15vw;
+}

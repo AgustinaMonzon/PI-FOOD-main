@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2? family= Fasthand & display=swap');
+.fondo{
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  margin: auto;
+  background-image: url("https://img.freepik.com/foto-gratis/fotografia-alimentos-diferentes-frutas-verduras-superficie-mesa-madera-blanca_1150-42603.jpg?w=740&t=st=1666696333~exp=1666696933~hmac=594423e2660dca712bd88e53884074ee45e264ef7a1a0d1db29dd6188ddcbeb1"); 
+}
+
+.formContainer {
+  background-position: center;
+  border: initial;
+  width: 50%;
+  height: 900px;
+  left: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 2px 15px 0px rgb(215, 215, 215);
+  background-color:#fbeedc58;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter:blur(3px) ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  opacity: 0.9;
+}
+h1 {
+    color: #00440a;
+    font-family: 'Fasthand', cursiva;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 0 0 12px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+.arr{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.inputs {
+  background-color: rgba(79, 66, 37, 0.548);
+  color: #005f19;
+  border: 1px solid #f1f1f1;
+  border-radius: 1rem;
+  position: absolute;
+  top:30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  height:400px;
+}
+
+label {
+  font-family: 'Fasthand', cursiva;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(224, 220, 213);
+  padding: 3px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.textarea {
+  float: right;
+  resize: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+  padding: 3px;
+  margin-top: 8px;
+  margin-right: 5px;
+  background: transparent;
+  color: #00440a;
+  font-size: large;
+  line-height: 2.5em;
+}
+
+input {
+  float: right;
+  width: 60%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 3px;
+  margin-top: 8px;
+  margin-right: 5px;
+  transition: width 0.35s ease-in-out;
+  background: transparent;
+  color: rgb(255, 251, 245);
+  font-size: large;
+}
+
+
+.createButton {
+    padding: 2px;
+    margin: 2px;
+    width: 200px;
+    font-family: 'Fasthand', cursiva;
+    font-size: 19px;
+    border-radius: 5px;
+    border: 2px solid rgba(9, 51, 1, 0.873);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+    margin-right: 30px;
+
+  }
+  .createButton:hover {
+    background-color: rgb(0, 126, 4);
+    color: white;
+  }
+  .createButton2 {
+    
+    opacity: 0;
+
+  }
+  .Containerbutton{
+    display: flex;
+    align-items: flex-end;
+  }
+  .returnButton {
+    background-color: #00440a;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: justify;
+    padding: 8px 22px;
+    margin-top: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 1px rgb(255, 219, 219);
+    cursor: pointer;
+    height:50px;
+    width:50px;
+    text-align: center;
+    color:#f2ecec;
+
+  }
+ 
+  .returnButton:hover {
+    color:#000000;
+    background-color: rgb(231, 218, 218);
+  }
+  
+.tipoDeDietas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(175, 164, 164);
+  background-color: rgba(63, 47, 47, 0.4);
+  color: rgb(9, 45, 10);
+  border: 1px solid #f1f1f1;
+  border-radius: 1rem;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  height: 350px;
+  padding: 5px;
+  font-size: 0.9vw;
+  margin-top: 70px;
+}
+
+.opciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  width: 100%;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+}
+.box2{
+  cursor: pointer;
+}
+
+.formContainer h5 {
+  color: red;
+  font-family:'Fasthand', cursiva;
+  font-size: 15px;
+  font-weight: 150;
+ 
+}
